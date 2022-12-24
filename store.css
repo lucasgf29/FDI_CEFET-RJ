@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Kanit', sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: white;
+    font-family: monospace;
+    font-size: 20px;
+    font-style: italic;
+
+}
+
+img{
+    height: 300px;
+    margin-left: 50px;
+    margin-top: 25px;
+}
+
+button{
+    margin-top: -50px;
+}
+
+.teste{
+    size: 200px;
+}
+
+.user{
+    width:40px ;
+    height: 40px;
+}
+
+.cart{
+    width: 40px;
+    height: 40px;
+    position: relative;
+    right: 5%;
+    top: 2px;
+
+}
+
+.search{
+    position: relative;
+    bottom:40px;
+}
+
+.itens{
+    float: left;
+    border: 1px solid black;
+    width: 50%;
+}
+
+.quadrado{
+    background: lightblue;
+    width: 100px;
+    height: 100px;
+}
+.carrinho{
+    background: lightblue;
+    width: 100px;
+    height: 100px;
+}
+

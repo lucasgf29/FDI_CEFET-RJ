@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang='pt-br'>
+
+<head>
+    <title>store.com.br</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="store.css">
+    <script language="javascript" src="store.js"></script>
+    <meta name="description" content="Store - FDI {2AINFO}">
+    <script src="./store.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Kanit:wght@200&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <a href="store.html" style="color:black"><header><h1><center>STORE</center></h1></header></a>
+
+    <main>
+
+    <hr><br><br>
+
+    <body>
+        <div id="main-container">
+            <center><h1>Cadastro</h1></center>
+            <center><form class="formulario" id="formulario" name="formulario">
+                <div>
+                    <input type="text" placeholder="Digite seu nome..." name="nome" id="nome"/>
+                    <br>
+                    
+                    <input type="date" name="dtNascimento" id="dtNascimento">
+                    <br>
+                </div>
+                <div>
+                    <input type="number" placeholder="Telefone..." name="telefone" id="telefone"/>
+                    <br>
+                    <input type="text" placeholder="Digite seu CPF..." name="cpf" id="cpf"/>
+                    <br>
+                </div>
+                <div>
+                    <input type="email" placeholder="Email para Contato..." name="email" id="email"/>
+                    <br>
+                </div>
+                <div>
+                    <input type="password" placeholder="Senha..." name="senha" id="senha"/>
+                    
+                    <input type="password" placeholder="Confirme a senha..." name="confirmeSenha" id="confirmeSenha"/>
+                    
+                </div>
+                <div>
+                    <b><input type="radio" id="masc" name="sexo">
+                    <label>Masculino</label>
+                    <input type="radio" id="fem" name="sexo">
+                    <label>Feminino</label>
+                    <input type="radio" id="outros" name="sexo">
+                    <label>Outros</label></b>
+                </div>
+    
+                    <input type="button" name="submit" id="submit" value="Enviar" onclick="validateText();"/>
+                </form> </center>
+        </div>
+    </body>
+    </html>

@@ -1,0 +1,21 @@
+CREATE TABLE `store`.`produto` (`id` INT(11) NOT NULL , `descricao` VARCHAR(30) NOT NULL , `preco` DECIMAL(10,2) NOT NULL , PRIMARY KEY (`id`)) ENGINE = InnoDB;
+
+INSERT INTO `produto` (`id`, `descricao`, `preco`) VALUES ('1', 'gtx 1660 ti', '1600'), ('2', 'i5 11400f', '900')
+
+
+$linhaTabela = <<<FIMLINHA
+      
+       <tr>
+	<td align="center" class="quadrado">%d</td>
+        <td class="quadrado" align="center">%s</td>
+        <td class="quadrado" align="center">%.2f</td>
+        <td class="quadrado" align="center"><input name="qtd[%d]" value="%d" size=3></td>
+      </tr>
+FIMLINHA;
+
+
+
+
+
+
+
